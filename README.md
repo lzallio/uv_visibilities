@@ -22,7 +22,7 @@ Once you are inside of CASA, run the following commands:
 import shutil
 from uvplot import export_uvtable
 for i in range(0, 960):
-    split(vis='msfile.ms', outputvis='./msfile_'+str(i)+'.ms', datacolumn='DATA', spw='*:'+str(i))
+    mstransform(vis='msfile.ms', outputvis='./msfile_'+str(i)+'.ms', datacolumn='DATA', spw='*:'+str(i))
     export_uvtable('./msfile'+str(i)+'.txt', tb, './msfile_'+str(i)+'.ms', datacolumn='DATA')
     shutil.rmtree('./msfile_'+str(i)+'.ms')
 ```
