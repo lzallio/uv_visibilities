@@ -57,7 +57,7 @@ This is the step where your awesome python coding skills might need to arise.
 
 Once we have all the .png files, we want to store them into a single .pdf for displaying them. Open the ```combine_png_into_pdf_github.py``` file and, after specifying your path, just run it. 
 
-If it does not work, the error resides either in line 43 (png_files = ...) or in line 46 (sorted_files = ...). Ask ChatGPT or DeepSeek to fix your problem depending on the msfile name and path you specified.
+If it does not work, the error resides either in line 43 (```png_files = ...```) or in line 46 (```sorted_files = ...```). Ask ChatGPT or DeepSeek to fix your problem depending on the msfile name and path you specified.
 
 **#4: BONUS!**
 
