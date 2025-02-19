@@ -70,7 +70,7 @@ Again, if you get any errors, it's because of your msfile name. Ask ChatGPT or D
 
 **YOU'RE READY TO DO SCIENCE NOW! CONGRATS :)**
 
-# **Cite it if you use it**
+# **If you use it, cite it**
 **If you use this code for any science projects, please make sure to cite it by reporting the github link to this folder.**
 
 Thanks to Giovanni Rosotti and Richard Booth for their precious help in developing this small but useful project.
