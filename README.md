@@ -14,7 +14,7 @@ If you didn't know about what written above, now you know.
 
 First, make sure you know how many channels your ms file actually has. My suggestion is to **always** work on the full ms file which contains **only the desired spectral line** (e.g., 12CO).
 
-Once you have your msfile.ms ready to be processed, just type casa inside of your terminal. If you don't have CASA installed, then install it first (https://casa.nrao.edu/casa_obtaining.shtml).
+Once you have your msfile.ms ready to be processed, just type ```casa``` inside of your terminal. If you don't have CASA installed, then install it first (https://casa.nrao.edu/casa_obtaining.shtml).
 
 Once you are inside of CASA, run the following commands:
 
