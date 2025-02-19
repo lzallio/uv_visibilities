@@ -8,7 +8,7 @@ If you are used to radio-astronomy data, you will know that the lovely images (*
 
 If you didn't know about what written above, now you know.
 
-**# uv_visibilities** works with a three-step approach. 
+# **uv_visibilities** works with a three-step approach. 
 
 **#1. TO BE RUN INSIDE OF CASA**
 
