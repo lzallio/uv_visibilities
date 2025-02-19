@@ -6,6 +6,8 @@ The visibilities are the raw data (regridded if needed) produced by a radio-inte
 
 If you are used to radio-astronomy data, you will know that the lovely images (**IMG**) that you see - which are produced through an algorithm called _tclean_ - are related to the visibilities (**VIS**) through a Fourier Transform. Specifically, **VIS** -- FFT-1 --> **IMG**. Therefore, what you will see using this tool is equivalent to what you would see after computing a 2D-FFT of a channel map. Of course, you should plot the resulting FFT on the original uv-plane produced by your interferometer, but that's a detail.
 
+Here is an example of what said above.
+
 If you didn't know about what written above, now you know.
 
 # **uv_visibilities** works with a three-step approach. 
@@ -68,7 +70,7 @@ Again, if you get any errors, it's because of your msfile name. Ask ChatGPT or D
 
 **YOU'RE READY TO DO SCIENCE NOW! CONGRATS :)**
 
-
+# **Cite it if you use it**
 **If you use this code for any science projects, please make sure to cite it by reporting the github link to this folder.**
 
 Thanks to Giovanni Rosotti and Richard Booth for their precious help in developing this small but useful project.
