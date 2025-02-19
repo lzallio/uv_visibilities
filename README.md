@@ -6,9 +6,12 @@ The visibilities are the raw data (regridded if needed) produced by a radio-inte
 
 If you are used to radio-astronomy data, you will know that the lovely images (**IMG**) that you see - which are produced through an algorithm called _tclean_ - are related to the visibilities (**VIS**) through a Fourier Transform. Specifically, **VIS** -- FFT-1 --> **IMG**. Therefore, what you will see using this tool is equivalent to what you would see after computing a 2D-FFT of a channel map. Of course, you should plot the resulting FFT on the original uv-plane produced by your interferometer, but that's a detail.
 
-Here is an example of what said above.
+Here is an example of what said above:
 
+This is the zero-velocity channel map of a protoplanetary disk.
 ![This is the zero-velocity channel map of a protoplanetary disk.](./DISK_img_ch80.png)
+
+This is the same channel of the same disk seen in visibility space with the uv_visibilities routine.
 ![This is the same channel of the same disk seen in visibility space with the uv_visibilities routine.](./DISK_ch80.png)
 
 If you didn't know about what written above, now you know.
