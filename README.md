@@ -8,6 +8,9 @@ If you are used to radio-astronomy data, you will know that the lovely images (*
 
 Here is an example of what said above.
 
+![This is the zero-velocity channel map of a protoplanetary disk.](./DISK_img_ch80.png)
+![This is the same channel of the same disk seen in visibility space with the uv_visibilities routine.](./DISK_ch80.png)
+
 If you didn't know about what written above, now you know.
 
 # **uv_visibilities** works with a three-step approach. 
