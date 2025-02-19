@@ -69,7 +69,7 @@ If it does not work, the error resides either in line 43 (```png_files = ...```)
 
 **#4: BONUS!**
 
-You might want a video instead of a .pdf. In that case, open the file ```gif_writer.py``` and run it after specifying the path and the output name for your gif.
+You might want a video instead of a .pdf. In that case, open the file ```gif_writer_github.py``` and run it after specifying the path and the output name for your gif.
 
 Again, if you get any errors, it's because of your msfile name. Ask ChatGPT or DeepSeek to fix it.
 
