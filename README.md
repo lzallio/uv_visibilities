@@ -76,7 +76,7 @@ Again, if you get any errors, it's because of your msfile name. Ask ChatGPT or D
 
 **YOU'RE READY TO DO SCIENCE NOW! CONGRATS :)**
 
-**Keep in mind that this routine was designe to visualise the visibilities of emission lines from ms files. Nevertheless, you can use it for continuum following the same exact steps. Simply set ```num=0``` when running ```run```.**
+**Keep in mind that this routine was designed to visualise the visibilities of emission lines from ms files. Nevertheless, you can use it for continuum following the same exact steps. Simply set ```num=0``` when running ```run```.**
 
 # **If you use it, cite it**
 **If you use this code for any science projects, please make sure to cite it by reporting the github link to this folder.**
