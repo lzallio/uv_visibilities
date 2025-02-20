@@ -177,7 +177,7 @@ def run(path, name='msfile_name', n_chan=960,
     for i in range(0, n_chan):
         
         name = name
-        file = name+str(i)+'.txt'
+        file = name+'_'+str(i)+'.txt'
         data_path = path+file
         data = read_txt_file(data_path)
         data_fin = data[to_keep]
