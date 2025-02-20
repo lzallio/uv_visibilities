@@ -75,7 +75,7 @@ def rebin_and_plot(df, u_col='u[m]', v_col='v[m]',
                                            v_centers.min(), v_centers.max()],
                origin='lower', aspect='auto', cmap='seismic', 
                interpolation='nearest', 
-               vmin=-2, vmax=2)
+               vmin=-5, vmax=5)
 
     #Ticks
     cbar = plt.colorbar(label=r'<Re(V)> [Jy]')
