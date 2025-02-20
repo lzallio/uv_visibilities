@@ -58,7 +58,7 @@ This is the syntax: ```run(path, name='msfile_name', n_chan=960, n_bins=150, to_
 
 As clearly visible, you **must** specify the path in which you have the .txt files, and the name of the msfile (following step #1, "msfile"), and possibly the number of channels you have in your msfile.
 
-Then, you **can** specify the number of bins (usually 150->300 is ok).
+Then, you **can** specify the number of bins (usually 100->300 is ok).
 
 Finally, you **shouldn't** modify the ```to_keep``` parameter, unless you know what you're doing. For example you could choose to visualise the Imaginary part of your visibilities: it's actually cool.
 
