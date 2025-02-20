@@ -183,7 +183,7 @@ def run(path, name='msfile_name', n_chan=960,
         data_fin = data[to_keep]
         
         
-        rebin_and_plot(data_fin, n_bins, num=i, 
+        rebin_and_plot(data_fin, n_bins=n_bins, num=i, 
                        path_to_save=path+name+'_2D_'+str(i)+'.png')
         #rebin_and_plot_3d(data_fin, n_bins=50, 
         #                  num=i, path_to_save=path+name+'_3D_'+str(i)+'.png')
